@@ -10,3 +10,5 @@ At Google, I've spent the last few years working across two distinct problem spa
 Before Google, I worked at Sprinklr on NLP projects which is where I first got hooked on systems that understand intent, not just instructions.
 
 Currently thinking a lot about distributed systems internals, cloud-native architecture, and where agentic AI fits into production infrastructure. Always interested in conversations at the intersection of these.
+
+Find me on [LinkedIn](https://www.linkedin.com/in/ayushtiku5/) or [GitHub](https://github.com/ayushtiku5).
