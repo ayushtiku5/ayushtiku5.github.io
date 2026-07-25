@@ -13,6 +13,9 @@ permalink: /posts/
         {{ post.title | escape }}
       </a>
     </h3>
+    {%- if post.description -%}
+    <p class="post-description">{{ post.description }}</p>
+    {%- endif -%}
   </li>
   {%- endfor -%}
 </ul>

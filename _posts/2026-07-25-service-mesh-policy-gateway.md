@@ -3,6 +3,7 @@ layout: post
 title: "A Tiny Gateway for Enforcing Service-to-Service Policy"
 date: 2026-07-25 10:00:00 -0000
 categories: systems
+description: "A small Go gateway enforcing default-deny, service-to-service policy between three toy microservices."
 ---
 
 Most "API gateway" tutorials are really about north-south traffic: a client hits the gateway, the gateway authenticates it and forwards it to one backend. I wanted to prototype something closer to what a service mesh's sidecar proxy does: east-west traffic, where every call between internal services passes through a policy check before it's allowed to happen. So I built a small Go gateway that sits in front of three toy services and enforces an explicit allow/deny table between them. Code is here: [github.com/ayushtiku5/api-gateway](https://github.com/ayushtiku5/api-gateway).

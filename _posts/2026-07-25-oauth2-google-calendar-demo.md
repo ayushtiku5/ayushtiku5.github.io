@@ -3,6 +3,7 @@ layout: post
 title: "A Minimal OAuth 2.0 Flow Against Google Calendar"
 date: 2026-07-25 13:00:00 -0000
 categories: systems
+description: "A minimal Go server implementing the OAuth 2.0 authorization code flow end to end against the Google Calendar API."
 ---
 
 OAuth is one of those things everyone integrates against and almost nobody builds from the server side. I wanted to see the whole authorization code flow end to end, not through a library that hides the handshake, so I wrote a small Go server that logs a user in with Google and pulls their next ten calendar events. Code is here: [github.com/ayushtiku5/oauth-demo](https://github.com/ayushtiku5/oauth-demo).

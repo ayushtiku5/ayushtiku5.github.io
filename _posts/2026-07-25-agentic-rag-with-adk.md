@@ -3,6 +3,7 @@ layout: post
 title: "Building an Agentic RAG Assistant on Google's ADK"
 date: 2026-07-25 09:00:00 -0000
 categories: ai
+description: "An agentic RAG assistant on Google's ADK that decides when to search, rephrase, or decompose questions instead of running a fixed retrieval pipeline."
 ---
 
 Most RAG demos do one retrieval call per question and call it done. That works for simple lookups, but it falls apart the moment a question is ambiguous or has multiple parts. I wanted to see what RAG looks like when the retrieval step is a tool the model chooses to call, rather than a fixed step that always runs before generation. Code is here: [github.com/ayushtiku5/agentic-rag](https://github.com/ayushtiku5/agentic-rag).

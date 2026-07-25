@@ -3,6 +3,7 @@ layout: post
 title: "Building a Coding Agent Harness Directly on the Claude API"
 date: 2026-07-25 11:00:00 -0000
 categories: ai
+description: "A hand-built agentic loop on the raw Claude API, with explicit tool execution, permission gating, and session persistence."
 ---
 
 Claude Code, the Claude Agent SDK, and the API's own beta Tool Runner all give you an agentic loop already built. I wanted to build the loop by hand instead, on the raw Messages API, specifically so every step, what tool gets executed, what gets confirmed with the user first, what gets logged, is explicit code I own rather than something happening inside someone else's abstraction. Code is here: [github.com/ayushtiku5/agent-harness](https://github.com/ayushtiku5/agent-harness).

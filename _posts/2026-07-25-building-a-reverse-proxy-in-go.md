@@ -3,6 +3,7 @@ layout: post
 title: "Building a Reverse Proxy from Scratch in Go"
 date: 2026-07-25 12:00:00 -0000
 categories: systems
+description: "A Go reverse proxy built in phases: path-based routing, four load-balancing strategies, active health checks, and TLS/mTLS with rate limiting."
 ---
 
 I've spent a lot of time operating other people's proxies: Envoy configs, GCLB, the odd nginx box that everyone's afraid to touch. At some point I wanted to understand the mechanics well enough to build the thing myself rather than just configuring it, so I put together a small reverse proxy prototype in Go. Code is here: [github.com/ayushtiku5/reverse-proxy](https://github.com/ayushtiku5/reverse-proxy).
