@@ -4,23 +4,6 @@ layout: default
 <div class="home">
   {{ content }}
 
-  <div class="subscribe-box">
-    <h2 class="subscribe-heading">Subscribe by email</h2>
-    <p class="subscribe-description">Notes from a systems engineer building distributed infrastructure, cloud-native tooling, and agentic AI, one working prototype at a time. New post, new email, no fluff.</p>
-    <form
-      action="https://buttondown.email/api/emails/embed-subscribe/ayushtiku5"
-      method="post"
-      target="popupwindow"
-      onsubmit="window.open('https://buttondown.email/ayushtiku5', 'popupwindow')"
-      class="subscribe-form"
-    >
-      <label for="bd-email">Email address</label>
-      <input type="email" name="email" id="bd-email" placeholder="you@example.com" required />
-      <input type="hidden" value="1" name="embed" />
-      <input type="submit" value="Subscribe" />
-    </form>
-  </div>
-
   <h2 class="post-list-heading">Recent posts</h2>
   <ul class="post-list">
     {%- for post in site.posts limit:3 -%}
