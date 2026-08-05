@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "We're Writing Skills and Prompts for Agents Like Thousand-Line Switch Statements"
-date: 2026-08-05 09:00:00 -0000
+date: 2026-08-05 03:00:00 -0000
 categories: ai
 description: "Enumerating edge cases as rules in a skill only covers the failures you've already seen. Push determinism into the execution layer and keep the prompt layer for judgment."
 ---
